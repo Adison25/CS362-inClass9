@@ -9,6 +9,9 @@ class TestCase(unittest.TestCase):
 
     def test_subtract_1(self):
         self.assertEqual(code.subtract(3, 2), 1)
+    
+    def test_times_1(self):
+        self.assertEqual(code.times(2, 2), 4)
 
 
 if __name__ == '__main__':
