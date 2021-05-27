@@ -13,6 +13,9 @@ class TestCase(unittest.TestCase):
     def test_times_1(self):
         self.assertEqual(code.times(2, 2), 4)
 
+    def test_divide_1(self):
+        self.assertEqual(code.div(2, 2), 1)
+
 
 if __name__ == '__main__':
     unittest.main()
